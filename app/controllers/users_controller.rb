@@ -7,6 +7,10 @@ class UsersController < ApplicationController
         @userdetials = User.all
     end
     
+    def home 
+        
+    end
+    
     # def details
     #     @userdetials = User.all
         

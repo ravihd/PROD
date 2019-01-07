@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
     
-    
+    root to: "users#home"
     
     get "/users/details" => "users#details"
     resources :users
