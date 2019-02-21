@@ -6,7 +6,9 @@ class UsersController < ApplicationController
     def index
         @userdetials = User.all
     end
-    
+    def signup
+        
+    end
     def home 
         
     end
